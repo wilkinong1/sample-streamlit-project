@@ -1,7 +1,7 @@
 import numpy as np
-from nba_api.stats.endpoints import shotchartdetail
-from nba_api.stats.static import teams
-from nba_api.stats.static import players
+# from nba_api.stats.endpoints import shotchartdetail
+# from nba_api.stats.static import teams
+# from nba_api.stats.static import players
 import json
 import requests
 import pandas as pd
@@ -9,10 +9,10 @@ import plotly.express as px
 import time
 import streamlit as st
 
-seasons_list = ['2022-23']
-nba_teams = teams.get_teams()
-nba_players = players.get_players()
-shots_data = []
+# seasons_list = ['2022-23']
+# nba_teams = teams.get_teams()
+# nba_players = players.get_players()
+# shots_data = []
 
 # GET SHOTS DATA FOR ALL NBA TEAMS FOR THE 2022-2023 NBA SEASON. CREATE A CSV FILE CALLED shots_data.csv. CLEAN AND AGGREGATE THE DATA IN SQL
 
