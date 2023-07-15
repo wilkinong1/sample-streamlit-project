@@ -448,11 +448,11 @@ with tab3:
     st.markdown("2. Most of the information on how to plot the information on Plotly, draw the court, and "
                 "how to visualize NBA shot comes from the article linked above, huge credit to JP Hwang. I learned a"
                 "lot just from reading his articles/blogs")
-    st.markdown("3. The work that I did mostly comes from getting, cleaning, and transforming the data in order to"
-                "plot and visualize it. The article was working with data from the 19-20 NBA season and the data from"
-                "the article had already been summarized. What I needed to do was get data for the latest NBA season,"
+    st.markdown("3. The work that I did mostly comes from getting, cleaning, and transforming the data in order to "
+                "plot and visualize it. The article was working with data from the 19-20 NBA season and the data from "
+                "the article had already been summarized. What I needed to do was get data for the latest NBA season, "
                 "summarize, aggregate, and transform that data depending on different conditions"
-                " to be able to plot the shot charts. Basically be able to reverse engineer what I had available and"
+                " to be able to plot the shot charts. Basically be able to reverse engineer what I had available and "
                 "fit that into the Plotly")
 
 
